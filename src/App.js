@@ -5,7 +5,6 @@ import { ProductProvider } from "./context/ProductContext";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Info from "./pages/Info";
-import ApiRoutes from "./components/ApiRoute";
 import ApiDetails from "./components/ApiDetails";
 
 function App() {

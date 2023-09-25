@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 // import { useApiProductContext } from '../context/ApiContext';
 import { useProductContext } from '../context/ProductContext';
@@ -18,12 +18,12 @@ const ApiDetails = () => {
         <div className="product-detail">
             <img src={product.image} alt={product.title} />
             <div>
-            <h1>{product.title}</h1>
-            <p>Price: ${product.price}</p>
-            <p>{product.description}</p>
-            <p>Category: {product.category}</p>
-            {/* <p>Rating: {apiData.rating.rate} ({apiData.rating.count} reviews)</p> */}
-            {/* Add any additional details you want to display */}
+                <h1>{product.title}</h1>
+                <p>Price: ${product.price}</p>
+                <p>{product.description}</p>
+                <p>Category: {product.category}</p>
+                {/* <p>Rating: {apiData.rating.rate} ({apiData.rating.count} reviews)</p> */}
+                {/* Add any additional details you want to display */}
             </div>
         </div>
     );
